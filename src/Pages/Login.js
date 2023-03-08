@@ -73,21 +73,21 @@ export default function Login() {
       console.log(error.message);
     }
   }
-  async function handleClickWithGoogle() {
-    setLoading(true);
-    try {
-      let result = await signInWithPopup(auth, Provider);
-      const credential = GoogleAuthProvider.credentialFromResult(result);
-      const token = credential.accessToken;
-      const user = result.user;
-      console.log("User: ", user);
-      setLoading(false);
-      navigate("/");
-    } catch (error) {
-      console.log(error);
-      setLoading(false);
-    }
-  }
+  // async function handleClickWithGoogle() {
+  //   setLoading(true);
+  //   try {
+  //     let result = await signInWithPopup(auth, Provider);
+  //     const credential = GoogleAuthProvider.credentialFromResult(result);
+  //     const token = credential.accessToken;
+  //     const user = result.user;
+  //     console.log("User: ", user);
+  //     setLoading(false);
+  //     navigate("/");
+  //   } catch (error) {
+  //     console.log(error);
+  //     setLoading(false);
+  //   }
+  // }
 
   return (
     <>
@@ -131,14 +131,14 @@ export default function Login() {
               >
                 Login
               </button>
-              <button
+              {/* <button
                 className={Styles.btn}
                 style={{ backgroundColor: "yellowgreen" }}
                 type="button"
                 onClick={handleClickWithGoogle}
               >
                 Login With Google
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
