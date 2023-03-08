@@ -1,0 +1,14 @@
+textarea {
+  width: 100%;
+  resize: none;
+  height: 200px;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid rgb(1, 170, 170);
+  scroll-behavior: smooth;
+}

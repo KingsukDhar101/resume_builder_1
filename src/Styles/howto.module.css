@@ -1,0 +1,74 @@
+
+.container>section {
+   display: flex;
+    padding: 10px 10px 30px 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    box-shadow: 0px 0px 20px 0px rgba(85, 85, 85, 0.3);
+}
+.container>section>h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.parentbox {
+    display: flex;
+    padding: 10px 0 30px;
+}
+.parentbox h2 {
+  font-size: 20px;
+}
+.parentbox .left {
+    width: 50%;
+   
+}
+.parentbox .right {
+    width: 50%;
+    
+}
+.left, .right {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+   
+}
+.right >p {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.left >p {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.left {
+    border-right:1px solid silver ;
+} 
+.left .btnSite {
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #8cc53e;
+}
+.right .btnSite {
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #03acbb;
+}
+.btnSite:hover {
+    background-color: #94dd46;
+}
+.linkcolor {
+    color:#03acbb;
+}

@@ -1,0 +1,66 @@
+.rowContainer {
+  /* border: 1px solid rgb(204, 203, 203); */
+  display: flex;
+  align-items: center;
+  height: 2.5em;
+  margin-bottom: 10px;
+}
+.rowContainer .hash {
+  /* border: 1px solid black; */
+  font-size: 1.2em;
+  padding: 5px;
+  color: rgb(1, 170, 170);
+}
+.rowContainer .inputContainer {
+  border: 1px solid rgb(204, 203, 203);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.inputContainer .inputBoxSkill {
+  width: 100%;
+  font-size: 0.85em;
+  border: none;
+  color: rgb(77, 77, 77);
+}
+.inputBoxSkill:focus {
+  outline: none;
+}
+.inputBoxSkill::placeholder {
+  color: rgb(189, 189, 189);
+}
+.inputContainer i {
+  /* border: 1px solid red; */
+  height: fit-content;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+.inputContainer i:active {
+  color: rgb(1, 170, 170);
+}
+
+.addSkillContainer {
+  width: 100%;
+}
+.addSkill {
+  color: rgb(1, 170, 170);
+  font-size: 1em;
+  border: 1px solid rgba(204, 204, 204, 0.5);
+  margin: 0 12em;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.addSkill:hover {
+  border: 1px solid rgba(204, 204, 204, 0.7);
+  box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.8);
+}
+.addSkill:active {
+  color: rgb(77, 77, 77);
+  border: 1px solid rgb(161, 161, 161);
+}

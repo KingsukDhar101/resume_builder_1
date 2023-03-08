@@ -1,0 +1,74 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid greenyellow; */
+  padding: 6px 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(68, 185, 231, 0.767);
+}
+.logo {
+  border: 1px solid rgba(204, 204, 204, 0.548);
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: black;
+  font-family: Georgia;
+  font-size: 1.4em;
+  font-weight: bolder;
+  /* font-size: large; */
+  text-decoration: none;
+}
+.logo > h3 {
+  padding: 5px 20px;
+  background: -webkit-linear-gradient(red, rgb(0, 0, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  /* border : 1px solid black; */
+}
+.contents {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  /* border: 1px solid black; */
+  flex: 1;
+}
+.hLink,
+.hLink_btn {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 10px;
+  background-color: rgba(245, 245, 245, 0.514);
+  border-radius: 10px;
+  color: black;
+}
+.hLink_btn {
+  width: 5em;
+}
+.hLink:hover,
+.hLink_btn:hover {
+  /* border: 1px solid #ccc; */
+  background-color: wheat;
+}
+.hLink:active,
+.hLink_btn:active {
+  box-shadow: 1px 1px 1px rgba(204, 204, 204, 0.8),
+    -1px 1px 1px rgba(204, 204, 204, 0.8), 1px -1px 1px rgba(204, 204, 204, 0.8),
+    -1px -1px 1px rgba(204, 204, 204, 0.8);
+}
+
+.username {
+  padding: 0 15px;
+  cursor: pointer;
+}
+.username:hover {
+  background-color: wheat;
+}

@@ -1,0 +1,349 @@
+.finalizeContainer {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.leftContainer {
+  border: 1px solid whitesmoke;
+  margin: 50px 0;
+  width: 600px;
+  height: auto;
+  padding: 30px;
+  margin: 50px 80px;
+  box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.8),
+    -2px 2px 2px rgba(204, 204, 204, 0.8), 2px -2px 2px rgba(204, 204, 204, 0.8),
+    -2px -2px 2px rgba(204, 204, 204, 0.8);
+  flex: 1.5;
+}
+h4 {
+  font-size: 1.8em;
+}
+h4,
+p {
+  /* display: inline-block; */
+  text-align: center;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 0.95em;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.headingContainer {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.headingContainer:hover {
+  box-shadow: 1px 1px 1px #ccc, -1px 1px 1px #ccc, 1px -1px 1px #ccc,
+    -1px -1px 1px #ccc;
+}
+.topContainer {
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.nameLogo {
+  height: 70px;
+  width: 70px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 7px 0;
+  /* margin-right: 10px; */
+  font-size: 1.3em;
+  color: white;
+}
+.name {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0 20px;
+}
+.name_border {
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0 20px;
+  border-radius: 50px;
+}
+
+.contactContainer {
+  padding: 3px 0;
+}
+
+.experienceContainer {
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin-bottom: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid rgba(204, 204, 204, 0.2);
+  border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+}
+.experienceContainer:hover {
+  box-shadow: 1px 1px 1px #ccc, -1px 1px 1px #ccc, 1px -1px 1px #ccc,
+    -1px -1px 1px #ccc;
+}
+.exContentContainer {
+  /* border: 1px solid blueviolet; */
+  display: flex;
+  margin-top: 8px;
+}
+.left {
+  /* border: 1px solid orange; */
+  flex: 1.5;
+}
+.experienceContainer .right {
+  /* border: 1px solid green; */
+  width: fit-content;
+}
+
+.skillContainer {
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin-bottom: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid rgba(204, 204, 204, 0.2);
+  border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+}
+.skillContainer:hover {
+  box-shadow: 1px 1px 1px #ccc, -1px 1px 1px #ccc, 1px -1px 1px #ccc,
+    -1px -1px 1px #ccc;
+}
+.skills {
+  /* border: 1px solid black; */
+  padding: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.skill {
+  background-color: antiquewhite;
+  padding: 6px 7px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.summaryContainer {
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin-bottom: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid rgba(204, 204, 204, 0.2);
+  border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+}
+.summaryContainer:hover {
+  box-shadow: 1px 1px 1px #ccc, -1px 1px 1px #ccc, 1px -1px 1px #ccc,
+    -1px -1px 1px #ccc;
+}
+
+.pageSlider {
+  margin: 20px 30px;
+}
+.submitBtn {
+  width: 100%;
+  height: 2.5em;
+  background-color: #8cc53e;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.back a {
+  color: #03acbb;
+  text-decoration: none;
+}
+.back a:hover {
+  text-decoration: underline;
+}
+
+.rightContainer {
+  flex: 1;
+  width: 400px;
+  border-left: 1px solid #ccc;
+}
+.rightContainer .contentContainer {
+  /* border: 1px solid red; */
+  margin: 50px 35px;
+}
+.contentContainer {
+  /* position: relative; */
+}
+.underline {
+  border-bottom: 1px solid #ccc;
+  margin: 12px 0;
+}
+
+button {
+  width: 100%;
+  height: 2.5em;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+.fontStyle {
+  height: 2.1em;
+  width: 100%;
+  font-size: 0.95em;
+  padding: 0 10px;
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 5px;
+}
+
+.fontStyle:focus {
+  outline: none;
+  border: 1px solid rgb(1, 170, 170);
+}
+
+.midHeading {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.midHeading_left {
+  font-size: 0.9em;
+  font-weight: bold;
+  /* color: darkblue; */
+}
+
+.smallHeading {
+  font-size: 0.85em;
+  color: rgb(48, 48, 48);
+  margin-bottom: 3px;
+}
+.layoutContainer {
+  /* border: 1px solid black; */
+  margin: 15px 0;
+}
+.layoutContainerBtn {
+  display: flex;
+}
+.condensed,
+.standard {
+  /* width:  */
+  margin-right: 20px;
+}
+.fontContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  margin: 10px 0;
+}
+.fontStyleContainer,
+.fontSizeContainer {
+  flex: 1;
+}
+.fontStyleContainer {
+  margin-right: 20px;
+}
+
+.colorContainer {
+  /* border: 1px solid black; */
+  margin: 15px 0;
+}
+
+.colorBtns {
+  /* border: 1px solid black; */
+  padding: 3px;
+}
+
+.blackbtn,
+.violetbtn,
+.bluebtn,
+.skybluebtn,
+.pinkbtn,
+.graybtn,
+.orangebtn,
+.greenbtn,
+.darkbluebtn {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.blackbtn {
+  background-color: black;
+}
+.violetbtn {
+  background-color: violet;
+}
+.bluebtn {
+  background-color: blue;
+}
+.skybluebtn {
+  background-color: skyblue;
+}
+.pinkbtn {
+  background-color: pink;
+}
+.graybtn {
+  background-color: gray;
+}
+.orangebtn {
+  background-color: orange;
+}
+.greenbtn {
+  background-color: green;
+}
+.darkbluebtn {
+  background-color: darkblue;
+}
+
+.download {
+  background-color: rebeccapurple;
+}
+.print,
+.email,
+.changeTemplate {
+  background-color: rgb(3, 172, 187);
+}
+.download,
+.print,
+.email,
+.changeTemplate {
+  border: none;
+  color: white;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.download:active {
+  background-color: rgb(150, 212, 62);
+}
+.print:active,
+.email:active,
+.changeTemplate:active {
+  background-color: rgb(20, 203, 219);
+}
+
+.test {
+  font-family: sans-serif;
+  font-family: Georgia;
+  font-family: Verdana;
+  font-family: "Times New Roman";
+  font-family: "Segoe UI";
+
+  font-size: small;
+  font-size: medium;
+  font-size: large;
+}

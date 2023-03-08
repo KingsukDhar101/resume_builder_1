@@ -1,0 +1,51 @@
+.titleName {
+  font-size: 0.95em;
+  margin-bottom: 5px;
+  color: gray;
+}
+.inputBox {
+  width: 100%;
+  height: 2.5em;
+  /* border: none; */
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  font-size: 1em;
+  font-weight: 100;
+  color: rgb(61, 61, 61);
+}
+.inputBox:focus {
+  outline: none;
+  border: 1px solid rgb(1, 170, 170);
+  /* background-color: orange; */
+}
+.dateContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.dateContainer > .month,
+.year {
+  /* border: 1px solid black; */
+  width: 47%;
+}
+.smalltext {
+  height: 2.5em;
+  /* line-height: 2em; */
+  width: 100%;
+  /* margin-right: 15px; */
+  font-size: 0.9em;
+  padding: 0 10px;
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 5px;
+}
+.smalltext:focus {
+  outline: none;
+  border: 1px solid rgb(1, 170, 170);
+}
+
+select {
+  color: rgb(85, 85, 85);
+}

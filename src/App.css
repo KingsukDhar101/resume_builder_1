@@ -1,0 +1,127 @@
+.blackbg {
+  background-color: black;
+}
+
+.violetbg {
+  background-color: violet;
+}
+.bluebg {
+  background-color: blue;
+}
+.skybluebg {
+  background-color: skyblue;
+}
+.pinkbg {
+  background-color: pink;
+}
+.graybg {
+  background-color: gray;
+}
+.orangebg {
+  background-color: orange;
+}
+.greenbg {
+  background-color: green;
+}
+.darkbluebg {
+  background-color: darkblue;
+}
+
+/*******************/
+
+.blacktext {
+  color: black;
+}
+
+.violettext {
+  color: violet;
+}
+.bluetext {
+  color: blue;
+}
+.skybluetext {
+  color: skyblue;
+}
+.pinktext {
+  color: pink;
+}
+.graytext {
+  color: gray;
+}
+.orangetext {
+  color: orange;
+}
+.greentext {
+  color: green;
+}
+.darkbluetext {
+  color: darkblue;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+/***********************************/
+
+.sans-serif {
+  font-family: sans-serif;
+}
+.georgia {
+  font-family: Georgia;
+}
+.verdana {
+  font-family: Verdana;
+}
+.times-new-roman {
+  font-family: "Times New Roman";
+}
+.segoe-ui {
+  font-family: "Segoe UI", Tahoma;
+}
+
+/*****************************/
+.small {
+  font-size: 0.8em;
+}
+
+.small .name {
+  font-size: 1.8em;
+}
+.small .heading {
+  font-size: 1em;
+}
+
+.medium {
+  font-size: 0.97em;
+}
+.medium .name {
+  font-size: 1.6em;
+}
+.medium .heading {
+  font-size: 1em;
+}
+
+.large {
+  font-size: 0.97em;
+}
+.large .name {
+  font-size: 2em;
+}
+.large .heading {
+  font-size: 1.2em;
+}
+
+.smallText {
+  font-size: 0.85em;
+  color: rgb(75, 75, 75);
+}
